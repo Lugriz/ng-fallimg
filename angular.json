@@ -129,6 +129,41 @@
           }
         }
       }
+    },
+    "ng-fallimg": {
+      "root": "projects/ng-fallimg",
+      "sourceRoot": "projects/ng-fallimg/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng-fallimg/tsconfig.lib.json",
+            "project": "projects/ng-fallimg/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-fallimg/src/test.ts",
+            "tsConfig": "projects/ng-fallimg/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-fallimg/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng-fallimg/tsconfig.lib.json",
+              "projects/ng-fallimg/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "ng-fallimg-lib"

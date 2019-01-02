@@ -1,0 +1,28 @@
+{
+  "name": "ng-fallimg",
+  "version": "0.0.1",
+  "description": "Set a default image when the main source on the image tag doesn't work",
+  "keywords": [
+    "image-fallback",
+    "img-fallback",
+    "ng-image-fallback",
+    "ng-img-fallback",
+    "image",
+    "default-image"
+  ],
+  "author": "insomniocode <insomniocode@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lugriz/ng-fallimg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lugriz/ng-fallimg/issues",
+    "email": "insomniocode@gmail.com"
+  },
+  "homepage": "https://github.com/Lugriz/ng-fallimg",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^7.1.0",
+    "@angular/core": "^7.1.0"
+  }
+}

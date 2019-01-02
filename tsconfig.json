@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-fallimg": [
+        "dist/ng-fallimg"
+      ],
+      "ng-fallimg/*": [
+        "dist/ng-fallimg/*"
+      ]
+    }
   }
 }
