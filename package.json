@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:lib": "ng-packagr -p projects/ng-fallimg/ng-package.json; cp README.md dist/ng-fallimg/README.md",
+    "build:lib": "ng-packagr -p projects/ng-fallimg/ng-package.json; cp README.md dist/ng-fallimg/README.md; cp LICENSE dist/ng-fallimg/LICENSE",
     "test:lib": "ng test ng-fallimg"
   },
   "private": true,
